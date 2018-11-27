@@ -5,5 +5,7 @@ module.exports = {
   output: {
     path: path.require(__dirname, "dist/js"),
     filename: "bundle.js"
-  }
+  },
+
+  mode: "development"
 };

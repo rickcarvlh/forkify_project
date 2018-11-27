@@ -4,11 +4,14 @@
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack"
   },
   "author": "Ricardo Carvalho",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.26.1"
-  }
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+
+  "dependencies": {}
 }

@@ -19,8 +19,13 @@ module.exports = {
     ],
     module: {
         rules: [
+            // test if they end in .js
             {
-                
+                test: /\.js$/,
+                use: {
+                    loader: 'babel-loader'
+                }
+
             }
         ]
     }

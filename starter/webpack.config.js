@@ -16,6 +16,13 @@ module.exports = {
             template: './src/index.html'
 
         })
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                
+            }
+        ]
+    }
 
 };
